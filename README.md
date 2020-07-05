@@ -11,6 +11,8 @@ Authors: Mo Zhou, Zhenxing Niu, Le Wang, Qilin Zhang, Gang Hua.
 
 ## Abstract
 
+![advranking](assets/advranking.png)
+
 Deep Neural Network (DNN) classifiers are vulnerable to adversarial attack,
 where an imperceptible perturbation could result in misclassification. However,
 the vulnerability of DNN-based image ranking systems remains under-explored. In
