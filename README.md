@@ -61,6 +61,7 @@ is possible.
 
 ## Visualization Examples
 
+![sopcpx](assets/sopcpx.png)
 
 ## Code
 
