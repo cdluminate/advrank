@@ -1,17 +1,16 @@
 Adversarial Ranking Attack and Defense (ECCV2020)
 ===
 
-Additional Materials for ECCV-2020 #2274 "Adversarial Ranking Attack and Defense".
+Materials for ECCV-2020 #2274 "Adversarial Ranking Attack and Defense".
 
 Authors: Mo Zhou, Zhenxing Niu, Le Wang, Qilin Zhang, Gang Hua.
 
 1. Preprint: https://arxiv.org/abs/2002.11293
 2. The full preprint version (including more graphics than the arxiv version) can be found in this repo.
-2. Code is coming soon.
-
-## Abstract
 
 ![advranking](assets/advranking.png)
+
+## Abstract
 
 Deep Neural Network (DNN) classifiers are vulnerable to adversarial attack,
 where an imperceptible perturbation could result in misclassification. However,
@@ -30,6 +29,39 @@ attacks. Meanwhile, the system robustness can be moderately improved with our
 defense. Furthermore, the transferable and universal properties of our
 adversary illustrate the possibility of realistic black-box attack. 
 
+### Contributions
+
+Definition of *Adversarial ranking attack*: adversarial ranking attack aims
+*raise* or *lower* the ranks of some chosen candidates
+C={c₁,c₂, ... ,cₘ} with respect to a specific query set
+Q={q₁,q₂, ... ,qw}.
+This can be achieved by either Candidate Attack (CA) or Query Attack (QA).
+
+Contributions:
+
+1. The adversarial ranking attack is defined and implemented, which can
+intentionally change the ranking results by perturbing the candidates
+or queries.
+
+2. An adversarial ranking defense method is proposed to improve the
+ranking model robustness, and mitigate all the proposed attacks
+simultaneously.
+
+Highlights:
+
+1. The attacking goal of *Adversarial ranking attack* is far beyond simply "inducing
+mis-ranking".
+1. Capable of both point-to-point and point-to-set ranking attacks.
+1. Able to preserve query semantics while perturbing the query image, making the
+attack stealth enough to be noted.
+1. Ranking-based loss function is better than distance-based function.
+1. The proposed defense for deep ranking system is generic and effective.
+1. The resulting adversarial examples are transferrable, and universal perturbation
+is possible.
+
 ## Visualization Examples
 
-Under preparation.
+
+## Code
+
+Coming soon.
