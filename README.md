@@ -7,7 +7,7 @@ Materials for ECCV-2020 Paper #2274.
 * **Authors:** Mo Zhou, Zhenxing Niu, Le Wang, Qilin Zhang, Gang Hua
 * **Preprint:** https://arxiv.org/abs/2002.11293
 
-The full version of preprint version (more graphics) can be found in this repo.
+The full version of preprint version (containing more graphics) can be found in the git repo.
 
 ![advranking](assets/advranking.png)
 
