@@ -43,6 +43,6 @@ simultaneously.
 
 Coming soon.
 
-## See Also
+## References
 
-1. [Wikipedia: Vulnerabilities of Learning to Rank System](https://en.wikipedia.org/wiki/Learning_to_rank#Vulnerabilities)
+1. [A. Madry et.al. Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083)
