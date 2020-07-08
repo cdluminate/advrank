@@ -6,8 +6,8 @@ Materials for ECCV-2020 Paper #2274.
 * **Title:** Adversarial Ranking Attack and Defense
 * **Authors:** Mo Zhou, Zhenxing Niu, Le Wang, Qilin Zhang, Gang Hua
 * **Preprint:** [https://arxiv.org/abs/2002.11293](https://arxiv.org/abs/2002.11293)
-
-The full version of preprint version (containing more graphics) can be found in the git repo.
+* **Full-Preprint:** [2002.11293v3-full.pdf (with more graphs)](2002.11293v3-full.pdf)
+* **Slides:** [Short Slides for Demonstrating the Concept](advrank-concept.pdf)
 
 ![advranking](assets/advranking.png)
 
