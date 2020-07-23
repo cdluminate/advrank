@@ -43,6 +43,21 @@ simultaneously.
 
 Coming soon.
 
+## License and Bibtex
+
+The paper (PDF file) is distributed under the [CC BY-SA-NC 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+The code is published under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
+```latex
+@article{advrank,
+  title={Adversarial Ranking Attack and Defense},
+  author={Zhou, Mo and Niu, Zhenxing and Wang, Le and Zhang, Qilin and Hua, Gang},
+  journal={arXiv preprint arXiv:2002.11293},
+  year={2020}
+}
+```
+
 ## References
 
 1. [A. Madry et.al. Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083)
