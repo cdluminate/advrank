@@ -10,19 +10,32 @@ Materials for ECCV-2020 Paper #2274.
 
 ## Demonstration
 
-![s1](assets/s1.png)
-
-![s2](assets/s2.png)
-
-![s3](assets/s3.png)
-
-![s4](assets/s4.png)
-
-![s5](assets/s5.png)
-
-![s6](assets/s6.png)
-
-![s7](assets/s7.png)
+<table>
+  <tr>
+    <td>
+      <img src="assets/s1.png"/>
+    </td>
+    <td>
+      <img src="assets/s3.png"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/s4.png"/>
+    </td>
+    <td>
+      <img src="assets/s5.png"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/s6.png"/>
+    </td>
+    <td>
+      <img src="assets/s7.png"/>
+    </td>
+  </tr>
+</table>
 
 ## Contributions
 
