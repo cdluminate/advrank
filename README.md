@@ -63,7 +63,7 @@ The paper (PDF file) is distributed under the [CC BY-SA-NC 4.0 License](https://
 The code is published under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
 ```latex
-@article{advrank,
+@article{zhou2020advrank,
   title={Adversarial Ranking Attack and Defense},
   author={Zhou, Mo and Niu, Zhenxing and Wang, Le and Zhang, Qilin and Hua, Gang},
   journal={arXiv preprint arXiv:2002.11293},
