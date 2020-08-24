@@ -1,0 +1,25 @@
+#!/bin/bash
+# usage: ./filter vanilla/typical_mnE_c2f2_siamese
+ATTACKS=( ES:PGD-UT
+          Q:PGD-M1 Q:PGD-M2 Q:PGD-M5 Q:PGD-M10
+          C:PGD-W1 C:PGD-W2 C:PGD-W5 C:PGD-W10
+		  R:PGD-M2 R:PGD-M5 R:PGD-M10 )
+filter(){
+	zstdcat $1 | grep -P '(method|baseline)'
+}
+
+main(){
+	local fname=""
+	for i in ${ATTACKS[@]}; do
+		fname="${1}_${i}.log.zst"
+		if ! test -r $fname; then
+			echo $fname is missing.
+			continue;
+		fi
+		echo ------------------------------------------------------------------
+		echo $fname
+		filter $fname
+	done
+}
+
+main $@

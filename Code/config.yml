@@ -1,0 +1,162 @@
+#Copyright (C) 2019-2020, Authors of ECCV2020 #2274 "Adversarial Ranking Attack and Defense"
+#Copyright (C) 2019-2020, Mo Zhou <cdluminate@gmail.com>
+#
+#Licensed under the Apache License, Version 2.0 (the "License");
+#you may not use this file except in compliance with the License.
+#You may obtain a copy of the License at
+#
+#http://www.apache.org/licenses/LICENSE-2.0
+#
+#Unless required by applicable law or agreed to in writing, software
+#distributed under the License is distributed on an "AS IS" BASIS,
+#WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#See the License for the specific language governing permissions and
+#limitations under the License.
+
+# --- Dataset Meta Information ---
+fashion-mnist:
+    #t10k-images-idx3-ubyte.gz
+    #t10k-labels-idx1-ubyte.gz
+    #train-images-idx3-ubyte.gz
+    #train-labels-idx1-ubyte.gz
+    path: ~/.torch/FashionMNIST/raw/
+
+mnist:
+    #t10k-images-idx3-ubyte.gz
+    #t10k-labels-idx1-ubyte.gz
+    #train-images-idx3-ubyte.gz
+    #train-labels-idx1-ubyte.gz
+    path: ~/.torch/MNIST/raw/
+
+sop:
+    # Ebay_train.txt
+    # Ebay_test.txt
+    path: ~/.torch/Stanford_Online_Products/
+
+# -- fashion --
+
+fa_cls_softmax:
+    epoch: 10
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+fa_cls_c2f2:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+faC_c2f2_siamese:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+faC_c2f2_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+faE_c2f2_siamese:
+    epoch: 30
+    lr: 0.001
+    batchsize: 500
+    batchsize_atk: 100
+
+faE_c2f2_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 500
+    batchsize_atk: 100
+
+faC_lenet_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+faC_res18_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+# -- mnist --
+
+mn_cls_softmax:
+    epoch: 10
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+mn_cls_c2f2:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+mnC_c2f2_siamese:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+mnC_c2f2_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+mnE_c2f2_siamese:
+    epoch: 30
+    lr: 0.001
+    batchsize: 500
+    batchsize_atk: 100
+
+mnE_c2f2_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 500
+    batchsize_atk: 100
+
+mnC_lenet_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+mnC_res18_trip:
+    epoch: 30
+    lr: 0.001
+    batchsize: 1000
+    batchsize_atk: 1000
+
+# -- stanford online product
+#    http://cvgl.stanford.edu/projects/lifted_struct/
+sopC_res18_siamese:
+    epoch: 6  # no 42 epoches
+    lr: 0.0001
+    batchsize: 128
+    batchsize_atk: 128
+
+sopC_res18_trip:
+    epoch: 42
+    lr: 0.0001
+    dylr: -1
+    batchsize: 128
+    batchsize_atk: 128
+
+sopE_res18_siamese:
+    epoch: 6  # no 42 epoches
+    lr: 0.00001
+    batchsize: 128
+    batchsize_atk: 32
+
+sopE_res18_trip:
+    epoch: 42
+    lr: 0.00001
+    dylr: -1
+    batchsize: 128
+    batchsize_atk: 32  # 12GB TITAN X (Pascal)
