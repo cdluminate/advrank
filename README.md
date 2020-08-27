@@ -55,10 +55,6 @@ or queries.
 ranking model robustness, and mitigate all the proposed attacks
 simultaneously.
 
-## Code
-
-Coming soon.
-
 ## License and Bibtex
 
 The paper (PDF file) is distributed under the [CC BY-SA-NC 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
