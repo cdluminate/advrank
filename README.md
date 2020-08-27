@@ -8,7 +8,8 @@ Materials for ECCV-2020 Paper #2274.
 * **Preprint:** [https://arxiv.org/abs/2002.11293](https://arxiv.org/abs/2002.11293)
 * **Full-Preprint:** [2002.11293v3-full.pdf (with more graphs)](assets/2002.11293v3-full.pdf)
 * **Video:** [{Bilibili(English)}](https://www.bilibili.com/video/BV1ih411Z7Rn/) [{Bilibili(Chinese)}](https://www.bilibili.com/video/BV1fZ4y1T7oC/) [{Youtube(English)}](https://www.youtube.com/watch?v=vlxfQ-Ip1lQ)
-* [**Code is available here**](https://github.com/cdluminate/advrank/tree/master/Code) (Released on Aug 24)
+* **Slides:** [(One-page version)](assets/eccv20-short.pdf) [(long version)](assets/eccv20-long.pdf)
+* **Code:** [available here](https://github.com/cdluminate/advrank/tree/master/Code) (Released on Aug 24)
 
 ## Demonstration
 
