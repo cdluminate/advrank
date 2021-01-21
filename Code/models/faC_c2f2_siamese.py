@@ -160,6 +160,8 @@ class Model(th.nn.Module):
             images = images.clone().detach()
             images.requires_grad = True
             #print('> Internal PGD loop [', iteration, ']', 'loss=', loss.item())
+
+        # XXX: It's very critical to clear the junk gradients
         optim = th.optim.SGD(self.parameters(), lr=1.)
         optimx = th.optim.SGD([images], lr=1.)
         optim.zero_grad(); optimx.zero_grad()
