@@ -62,7 +62,7 @@ The paper (PDF file) is distributed under the [CC BY-SA-NC 4.0 License](https://
 The code is published under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
 Bibtex for the ECCV version:
-```latex
+```bib
 @InProceedings{advrank,
   author={Zhou, Mo and Niu, Zhenxing and Wang, Le and Zhang, Qilin and Hua, Gang},
   title={Adversarial Ranking Attack and Defense},
@@ -74,7 +74,7 @@ Bibtex for the ECCV version:
 ```
 
 Bibtex for the ArXiv preprint version:
-```latex
+```bib
 @article{zhou2020advrank,
   title={Adversarial Ranking Attack and Defense},
   author={Zhou, Mo and Niu, Zhenxing and Wang, Le and Zhang, Qilin and Hua, Gang},
