@@ -64,9 +64,9 @@ The code is published under the [Apache-2.0 License](https://www.apache.org/lice
 Bibtex for the ECCV version:
 ```bib
 @InProceedings{advrank,
-  author={Zhou, Mo and Niu, Zhenxing and Wang, Le and Zhang, Qilin and Hua, Gang},
   title={Adversarial Ranking Attack and Defense},
-  booktitle={ECCV 2020},
+  author={Zhou, Mo and Niu, Zhenxing and Wang, Le and Zhang, Qilin and Hua, Gang},
+  booktitle={ECCV},
   year={2020},
   pages={781--799},
   isbn={978-3-030-58568-6}
