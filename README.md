@@ -9,7 +9,7 @@ Materials for ECCV-2020 Paper #2274.
 * **Full-Preprint:** [2002.11293v3-full.pdf (with more graphs)](assets/2002.11293v3-full.pdf)
 * **Video:** [{Bilibili(English)}](https://www.bilibili.com/video/BV1ih411Z7Rn/) [{Bilibili(Chinese)}](https://www.bilibili.com/video/BV1fZ4y1T7oC/) [{Youtube(English)}](https://www.youtube.com/watch?v=vlxfQ-Ip1lQ)
 * **Slides:** [(One-page version)](assets/eccv20-short.pdf) [(long version)](assets/eccv20-long.pdf)
-* **Code:** [available here](Code/) (Released on Aug 24)
+* **Code:** [Code is available here.](Code/) (Released on Aug 24) [Or you may want to try it on colab.](https://colab.research.google.com/drive/1bL15SYdV5oB3F-uQdV8trXnwVmPM2YAx?usp=sharing)
 
 ## Demonstration
 
