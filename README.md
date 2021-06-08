@@ -11,6 +11,10 @@ Materials for ECCV-2020 Paper #2274.
 * **Slides:** [(One-page version)](assets/eccv20-short.pdf) [(long version)](assets/eccv20-long.pdf)
 * **Code:** [Code is available here.](Code/) (Released on Aug 24) [Or you may want to try it on colab.](https://colab.research.google.com/drive/1bL15SYdV5oB3F-uQdV8trXnwVmPM2YAx?usp=sharing)
 
+### NEWS & Updates
+
+1. [Substantial progress](https://github.com/cdluminate/robrank) based on this conference paper is available as a preprint.
+
 ## Demonstration
 
 <table>
