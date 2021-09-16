@@ -13,7 +13,7 @@ Materials for ECCV-2020 Paper #2274.
 
 ### NEWS & Updates
 
-1. [Substantial progress](https://github.com/cdluminate/robrank) (at least 60% and at most 540% robustness improvement) based on this conference paper is available as a preprint.
+1. [Substantial progress](https://github.com/cdluminate/robrank) (at least 60% and at most 540% robustness improvement) based on this conference paper is available as a preprint. **NOTE:** If you want to do some further research based on this ECCV 2020 paper, please have a look at this preprint paper to better understand the limitations of the ECCV 2020 work.
 
 ## Demonstration
 
